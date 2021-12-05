@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
             val guessNo=input.editText?.text?.toString()?.toInt()
             when{
                 randomNo>guessNo!!->{
-                    msg.text="No:) number is bigger"
+                    msg.text="No:) My number is bigger"
                 }
                 randomNo<guessNo!!->{
-                    msg.text="No:) number is smaller"
+                    msg.text="No:) My number is smaller"
                 }
                 randomNo==guessNo!!->{
                     msg.text="You are right ! lets play again"
